@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="./css/sections/about.css" />
     <link rel="stylesheet" href="./css/sections/team.css" />
+    <link rel="stylesheet" href="./css/sections/contact.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
@@ -242,5 +243,62 @@
       </div>
     </section>
     <!-- CONTACT US SECTION -->
+    <div class="container">
+      <section class="contact">
+        <!-- Section Introduction -->
+        <div class="section-intro">
+          <h2 class="section__title">Contact Us</h2>
+        </div>
+        <div class="contact-us-content">
+          <div class="addresses-block">
+            <div class="address-container">
+              <span class="address__title title--yellow">Address</span>
+              <div class="address-content">
+                <span class="address__row">Street 221B Baker Street</span>
+                <span class="address__row">London, UK</span>
+              </div>
+            </div>
+            <div class="address-container">
+              <span class="address__title title--yellow">Customer Support</span>
+              <div class="address-content">
+                <span class="address__row">E-mail: contact@site.com</span>
+                <span class="address__row">Phone: (555) 555-5555</span>
+              </div>
+            </div>
+          </div>
+          <div class="member__contact__icons">
+            <span class="icon icon--grey"
+              ><i class="fab fa-facebook-f"></i
+            ></span>
+            <span class="icon icon--grey"><i class="fab fa-twitter"></i></span>
+            <span class="icon icon--grey"
+              ><i class="fab fa-linkedin-in"></i
+            ></span>
+          </div>
+        </div>
+        <!-- FORM -->
+        <form class="form-container" action="index.html">
+          <div class="form-group input-name">
+            <label for="name">Your Name (required)</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="form-group input-email">
+            <label for="email">Your Email (required)</label>
+            <input type="email" id="email" />
+          </div>
+          <div class="form-group input-subject">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" />
+          </div>
+          <div class="form-group textarea">
+            <label for="message">Your Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+          </div>
+          <div class="form-button button">
+            <input type="button" value="Send" />
+          </div>
+        </form>
+      </section>
+    </div>
   </body>
 </html>

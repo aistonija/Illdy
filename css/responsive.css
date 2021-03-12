@@ -5,6 +5,17 @@
     justify-content: center;
     gap: 20px;
   }
+
+  .address-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .address-content {
+    width: 70%;
+    border-left: 1px solid var(--grey-text);
+    padding-left: 10px;
+  }
 }
 
 @media screen and (min-width: 769px) {
@@ -58,6 +69,50 @@
   .member-img-container {
     text-align: center;
   }
+
+  /* CONTACT US */
+  .contact-us-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .addresses-block {
+    display: flex;
+  }
+
+  .address-container {
+    width: 50%;
+  }
+
+  /* form */
+
+  .form-container {
+    gap: 10px;
+    grid-template-areas:
+      "input-name input-email input-subject"
+      "textarea textarea textarea"
+      ". . button";
+  }
+
+  .input-name {
+    grid-area: input-name;
+  }
+
+  .input-email {
+    grid-area: input-email;
+  }
+
+  .input-subject {
+    grid-area: input-subject;
+  }
+
+  .textarea {
+    grid-area: textarea;
+  }
+
+  .button {
+    grid-area: button;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -92,6 +147,14 @@
 
   .main-nav__link:hover {
     color: var(--yellow);
+  }
+
+  .addresses-block {
+    width: 70%;
+  }
+
+  .form-container {
+    gap: 20px;
   }
 }
 
