@@ -23,6 +23,7 @@
     />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="./css/sections/about.css" />
+    <link rel="stylesheet" href="./css/sections/team.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
@@ -77,17 +78,169 @@
         </div>
         <!-- Progress Bars -->
         <div class="progress-bars-block">
-          <div class="progress-bar">
-            <div class="progress"></div>
-            <div class="circle">
-              <div class="badge-container">
-                <div class="badge">60%</div>
-                <i class="fas fa-caret-down"></i>
+          <!-- Progress Bar Tomato -->
+          <div class="progress-bar-block">
+            <div class="progress-bar">
+              <div class="progress progress--tomato"></div>
+              <div class="circle circle--tomato">
+                <div class="badge-container">
+                  <div class="badge badge--tomato">60%</div>
+                  <i class="fas fa-caret-down fa-caret-tomato"></i>
+                </div>
               </div>
+            </div>
+            <div class="progress-content">
+              <span class="progress__title title--tomato title--typography"
+                >Typography</span
+              >
+            </div>
+          </div>
+          <!-- Progress Bar Yellow -->
+          <div class="progress-bar-block">
+            <div class="progress-bar">
+              <div class="progress progress--yellow"></div>
+              <div class="circle circle--yellow">
+                <div class="badge-container">
+                  <div class="badge badge--yellow">82%</div>
+                  <i class="fas fa-caret-down fa-caret-yellow"></i>
+                </div>
+              </div>
+            </div>
+            <div class="progress-content">
+              <span class="progress__title title--yellow title--design"
+                >Design</span
+              >
+            </div>
+          </div>
+          <!-- Progress Bar Violet -->
+          <div class="progress-bar-block">
+            <div class="progress-bar">
+              <div class="progress progress--violet"></div>
+              <div class="circle circle--violet">
+                <div class="badge-container">
+                  <div class="badge badge--violet">86%</div>
+                  <i class="fas fa-caret-down fa-caret-violet"></i>
+                </div>
+              </div>
+            </div>
+            <div class="progress-content">
+              <span class="progress__title title--violet title--dev"
+                >Development</span
+              >
             </div>
           </div>
         </div>
       </section>
     </div>
+    <!-- TEAM SECTION -->
+    <section class="team-bg">
+      <div class="container">
+        <!-- Section Introduction -->
+        <div class="section-intro">
+          <h2 class="section__title">Team</h2>
+          <p class="section__description">
+            Meet the people that are going to take your business to the next
+            level.
+          </p>
+        </div>
+        <!-- Section team block -->
+        <div class="member-cards">
+          <!-- Each team member card -->
+          <div class="member-card">
+            <!-- Card image container -->
+            <div class="member-img-container">
+              <img
+                class="card__img"
+                src="./images/front-page-team-3.webp"
+                alt=""
+              />
+            </div>
+            <!-- Card text content container -->
+            <div class="member-content-container">
+              <h4 class="member__name">Mark Lawrence</h4>
+              <span class="member__title title--tomato">Web Designer</span>
+              <p class="member__description">
+                Creative, detail-oriented, always focused.
+              </p>
+              <!-- icons block -->
+              <div class="member__contact__icons">
+                <span class="icon icon--tomato border--tomato"
+                  ><i class="fab fa-facebook-f"></i
+                ></span>
+                <span class="icon icon--tomato border--tomato"
+                  ><i class="fab fa-twitter"></i
+                ></span>
+                <span class="icon icon--tomato border--tomato"
+                  ><i class="fab fa-linkedin-in"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <!-- Team member card -->
+          <div class="member-card">
+            <!-- Card image container -->
+            <div class="member-img-container">
+              <img
+                class="card__img"
+                src="./images/front-page-team-1.jpg"
+                alt=""
+              />
+            </div>
+            <!-- Card text content container -->
+            <div class="member-content-container">
+              <h4 class="member__name">Mark Lawrence</h4>
+              <span class="member__title title--yellow">Web Designer</span>
+              <p class="member__description">
+                Creative, detail-oriented, always focused.
+              </p>
+              <!-- icons block -->
+              <div class="member__contact__icons">
+                <span class="icon icon--yellow border--yellow"
+                  ><i class="fab fa-facebook-f"></i
+                ></span>
+                <span class="icon icon--yellow border--yellow"
+                  ><i class="fab fa-twitter"></i
+                ></span>
+                <span class="icon icon--yellow border--yellow"
+                  ><i class="fab fa-linkedin-in"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <!-- Team Member Card -->
+          <div class="member-card">
+            <!-- Card image container -->
+            <div class="member-img-container">
+              <img
+                class="card__img"
+                src="./images/front-page-team-2.webp"
+                alt=""
+              />
+            </div>
+            <!-- Card text content container -->
+            <div class="member-content-container">
+              <h4 class="member__name">Mark Lawrence</h4>
+              <span class="member__title title--violet">Web Designer</span>
+              <p class="member__description">
+                Creative, detail-oriented, always focused.
+              </p>
+              <!-- icons block -->
+              <div class="member__contact__icons">
+                <span class="icon icon--violet border--violet"
+                  ><i class="fab fa-facebook-f"></i
+                ></span>
+                <span class="icon icon--violet border--violet"
+                  ><i class="fab fa-twitter"></i
+                ></span>
+                <span class="icon icon--violet border--violet"
+                  ><i class="fab fa-linkedin-in"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT US SECTION -->
   </body>
 </html>

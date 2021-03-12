@@ -6,35 +6,43 @@
   font-size: 2.2rem;
   font-weight: 700;
   color: var(--dark);
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
+.section__description,
+.member__description {
+  color: var(--grey-text);
+  line-height: 1.7;
+}
+
+/* PROGRESS BARS */
+
 .progress-bars-block {
-  padding: 100px 0;
-  border: 1px solid green;
+  padding: 100px 40px 50px;
 }
 
 .progress-bar {
   height: 2px;
-  background-color: black;
+  background-color: rgba(140, 149, 151, 0.3);
   position: relative;
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .progress {
-  height: 5px;
-  width: 60%;
-  background-color: blueviolet;
+  height: 4px;
+}
+
+.progress-content {
+  margin-bottom: 80px;
 }
 
 .circle {
   height: 10px;
   width: 10px;
-  background-color: blueviolet;
   border-radius: 50%;
   position: absolute;
-  left: 59%;
 }
 
 .badge-container {
@@ -42,7 +50,6 @@
 }
 
 .badge {
-  background-color: blueviolet;
   color: white;
   padding: 5px 10px;
   border-radius: 5px;
@@ -52,7 +59,96 @@
 }
 
 .fa-caret-down {
-  color: blueviolet;
   position: absolute;
   bottom: 16px;
+}
+
+.fa-caret-tomato {
+  color: var(--tomato);
+}
+
+.fa-caret-yellow {
+  color: var(--yellow);
+}
+
+.fa-caret-violet {
+  color: var(--violet);
+}
+
+.progress--tomato {
+  width: 60%;
+}
+
+.progress--yellow {
+  width: 82%;
+}
+
+.progress--violet {
+  width: 86%;
+}
+
+.circle--tomato {
+  left: 59%;
+}
+
+.circle--yellow {
+  left: 81%;
+}
+
+.circle--violet {
+  left: 85%;
+}
+
+/* Progress colors */
+
+.progress--tomato,
+.circle--tomato,
+.badge--tomato {
+  background-color: var(--tomato);
+}
+
+.progress--yellow,
+.circle--yellow,
+.badge--yellow {
+  background-color: var(--yellow);
+}
+
+.progress--violet,
+.circle--violet,
+.badge--violet {
+  background-color: var(--violet);
+}
+
+.title--tomato,
+.icon--tomato {
+  color: var(--tomato);
+}
+
+.title--yellow,
+.icon--yellow {
+  color: var(--yellow);
+}
+
+.title--violet,
+.icon--violet {
+  color: var(--violet);
+}
+
+.progress__title::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  margin-right: 10px;
+  vertical-align: baseline;
+}
+
+.title--typography::before {
+  content: "\f031";
+}
+
+.title--design::before {
+  content: "\f303";
+}
+
+.title--dev::before {
+  content: "\f121";
 }
