@@ -13,6 +13,10 @@
   color: var(--grey-text);
 }
 
+.member__contact__icons {
+  margin-bottom: 50px;
+}
+
 .icon--grey {
   color: var(--grey-text);
 }
@@ -51,4 +55,28 @@ textarea {
   color: var(--light);
   font-weight: 600;
   border: none;
+}
+
+/* address-grid */
+
+.contact-grid {
+  margin-top: 30px;
+  display: grid;
+  gap: 30px;
+}
+
+.address {
+  color: var(--yellow);
+  display: grid;
+  gap: 5px;
+}
+
+.adr-line1,
+.adr-line2 {
+  color: var(--grey-text);
+  margin: 0;
+}
+
+.contact__icons {
+  display: flex;
 }
